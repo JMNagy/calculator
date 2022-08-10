@@ -3,7 +3,7 @@ const bdy = document.querySelector("body");
 bodyClass.split(" ").forEach((cls) => bdy.classList.add(cls));
 
 const calcBodyClass =
-  "max-w-lg rounded overflow-hidden shadow-2xl bg-pink-700 bg-opacity-75 bg-gradient-to-tr from-gray-800 flex";
+  "max-w-lg rounded overflow-hidden shadow-2xl bg-purple-700 bg-opacity-75 bg-gradient-to-tr from-blue-900 flex";
 const calcBody = document.querySelector(".calcBody");
 calcBodyClass.split(" ").forEach((cls) => calcBody.classList.add(cls));
 
